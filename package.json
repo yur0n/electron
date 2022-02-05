@@ -1,5 +1,5 @@
 {
-  "name": "electron-app",
+  "name": "electron",
   "version": "1.0.0",
   "description": "gtarp",
   "main": "main.js",
@@ -8,8 +8,16 @@
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yur0n/electron.git"
+  },
   "author": "yur0n",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yur0n/electron/issues"
+  },
+  "homepage": "https://github.com/yur0n/electron#readme",
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.63",
     "@electron-forge/maker-deb": "^6.0.0-beta.63",
@@ -28,7 +36,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "electron_app"
+            "name": "electron"
           }
         },
         {
